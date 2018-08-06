@@ -1,0 +1,29 @@
+{
+  "name": "project-euler-solutions",
+  "version": "1.0.0",
+  "description": "Solutions to problems at https://projecteuler.net",
+  "main": "main.js",
+  "dependencies": {
+    "elm": "^0.18.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goggalore/project-euler-solutions.git"
+  },
+  "keywords": [
+    "solutions",
+    "project",
+    "euler",
+    "math"
+  ],
+  "bugs": {
+    "url": "https://github.com/goggalore/project-euler-solutions/issues"
+  },
+  "author": "June Crane",
+  "homepage": "https://github.com/goggalore/project-euler-solutions#readme",
+  "license": "GPL-3.0-or-later"
+}
