@@ -1,18 +1,11 @@
-module FibonacciM exposing (sum, sumEven, sequence, evenSequence)
+module FibonacciM exposing (sum, sequence, evenSequence)
 
 -- get Fibonacci sequences that do not exceed a maximum (max) value
 
 
-sum : Int -> Int
-sum max =
-    sequence max
-        |> List.foldr (+) 0
-
-
-sumEven : Int -> Int
-sumEven max =
-    evenSequence max
-        |> List.foldr (+) 0
+sum : List Int -> Int
+sum sequence =
+    List.foldr (+) 0 sequence
 
 
 sequence : Int -> List Int

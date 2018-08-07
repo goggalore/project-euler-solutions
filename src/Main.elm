@@ -29,7 +29,8 @@ init : ( Model, Cmd Msg )
 init =
     let
         fibonacci =
-            Fibonacci.sumEven 4000000
+            Fibonacci.evenSequence 4000000
+                |> Fibonacci.sum
                 |> toString
     in
         ( Model fibonacci, Cmd.none )
