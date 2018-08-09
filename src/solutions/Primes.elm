@@ -34,6 +34,6 @@ maxPrime num =
 
 
 -- unfortunately we cannot use these functions on an Int as
--- large as 600851475143 because the Int type cannot store large
--- intergers (overflow problem) such as 600851475143 as
--- asked in the problem
+-- large as 600851475143 as asked in the problem because the
+-- Int type cannot store large intergers (overflow problem)
+-- and will return meaningless values
