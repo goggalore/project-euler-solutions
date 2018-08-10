@@ -5,7 +5,7 @@ module FibonacciM exposing (sum, sequence, evenSequence)
 
 sum : List Int -> Int
 sum sequence =
-    List.foldr (+) 0 sequence
+    List.sum sequence
 
 
 sequence : Int -> List Int
