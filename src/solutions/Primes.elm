@@ -1,4 +1,4 @@
-module Primes exposing (..)
+module Primes exposing (primes, maxPrime)
 
 import Set exposing (Set)
 
